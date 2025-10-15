@@ -515,6 +515,7 @@ summary(is_m_4d)
 qqnorm(resid(is_m_4d)) #ok
 qqline(resid(is_m_4d), col = "red")
 shapiro.test(resid(is_m_4d)) # ok
+ks.test(scale(residuals(is_m_4d)), "pnorm") # ok
 bptest(is_m_4d) # ok
 durbinWatsonTest(is_m_4d) # ok
 vif(is_m_4d) #ok
@@ -562,10 +563,11 @@ is_m_4ad  <- lm(q87_cumulative ~  # !!!
 summary(is_m_4ad)
 qqnorm(resid(is_m_4ad)) #ok
 qqline(resid(is_m_4ad), col = "red")
-shapiro.test(resid(is_m_4ad)) # ok
+shapiro.test(resid(is_m_4ad)) 
+ks.test(scale(residuals(is_m_4ad)), "pnorm") # ok
 bptest(is_m_4ad) # ok
 durbinWatsonTest(is_m_4ad) # ok
-vif(is_m_4ad, type = 'predictor') #ok
+vif(is_m_4ad, type = "predictor") #ok
 
 actual <- symbolic_threat_islamophobia_preprocessed$q87_cumulative
 predicted <- predict(is_m_4ad)
