@@ -2,7 +2,7 @@
 
 ## Background
 
-This repository is set up to showcase the analytical strategy undertaken for our article " “Exploring the Impact of Neighborhood Islamic Points of Interest on Islamophobia: An Exploratory Study Using OpenStreetMap and Google Maps". Please note that analyses were undertaken using R. 
+This repository is set up to showcase the analytical strategy undertaken for our article "Exploring the Impact of Neighborhood Islamic Points of Interest on Islamophobia: An Exploratory Study Using OpenStreetMap and Google Maps". Please note that analyses were undertaken using R. 
 
 ## Data Availability
 
