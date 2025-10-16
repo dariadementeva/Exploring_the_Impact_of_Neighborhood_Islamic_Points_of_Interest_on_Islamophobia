@@ -615,6 +615,9 @@ int_1
 # Islamophobia
 ################################################################################################################
 
+# While developing the ML solution, I encountered several errors with the caret package. 
+# I resolved the errors by consulting ChatGPT for explanations and suggestions, but all final codebase and code decisions remain my own.
+
 set.seed(05081997) # control randomness in train-test splits
 
 x1 <- model.matrix(q87_cumulative ~
